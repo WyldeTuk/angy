@@ -42,7 +42,7 @@
 <script>
 
     // 创建气球对象，并添加到body中
-    for (var i = 0; i < 12; i++) {
+    for (var i = 0; i < 32; i++) {
         var balloon = new Balloon();
         balloon.show();
         balloon.run();
@@ -56,7 +56,7 @@
         balloon.run();
         count++;
         console.log("count = " + count);
-        if (count == 11) {
+        if (count == 10) {
             clearInterval(timer);
         }
     }, 900);
